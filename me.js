@@ -5,7 +5,11 @@ function sum(x, y) {
 }
 
 function fun() {
-  return x * y
+  return 0
 }
 
-export default sum
+function memo() {
+  return 'xx'
+}
+
+export default {sum, fun, memo}
