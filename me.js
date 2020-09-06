@@ -3,6 +3,9 @@ function sum(x, y) {
   y++
   return x + y
 }
+
 function fun() {
   return x * y
 }
+
+export default sum
