@@ -1,4 +1,6 @@
 function sum(x, y) {
+  x++
+  y++
   return x + y
 }
 function fun() {
