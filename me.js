@@ -12,4 +12,8 @@ function memo() {
   return 'xx'
 }
 
-export default {sum, fun, memo}
+function foo() {
+  return 0
+}
+
+export default { sum, fun, foo, memo }
